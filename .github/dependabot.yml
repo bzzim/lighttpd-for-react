@@ -1,24 +1,15 @@
 version: 2
 
 updates:
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "09:00"
-      timezone: "Asia/Bangkok"
+  - package-ecosystem: 'docker'
+    directory: '/'
     reviewers:
-      - "rtsp"
+      - 'bzzim'
     assignees:
-      - "rtsp"
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "saturday"
-      time: "09:00"
-      timezone: "Asia/Bangkok"
+      - 'bzzim'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     reviewers:
-      - "rtsp"
+      - 'bzzim'
     assignees:
-      - "rtsp"
+      - 'bzzim'
